@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forn d'en Pere · Panadería, pastelería y cafetería en Barcelona</title>
+  <meta name="description" content="Forn d'en Pere: panadería artesana, pastelería y cafetería en Gran Via de les Corts Catalanes, 1032 (Barcelona). Pan, bollería, cocas y encargos desde 1990.">
+  <meta name="theme-color" content="#1a1715">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Forn d'en Pere · Desde 1990">
+  <meta property="og:description" content="Panadería artesana, pastelería y cafetería en Gran Via, Barcelona.">
+  <meta property="og:image" content="img/hero.jpg">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Work+Sans:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Forn d'en Pere",
+    "image": "img/fachada.jpg",
+    "telephone": "+34 644 537 589",
+    "foundingDate": "1990",
+    "servesCuisine": ["Panadería", "Pastelería", "Cafetería"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gran Via de les Corts Catalanes, 1032",
+      "addressLocality": "Barcelona",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:45", "closes": "20:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:15", "closes": "14:30"}
+    ],
+    "sameAs": ["https://www.instagram.com/forndenpere/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__brand" aria-label="Forn d'en Pere, inicio">
+        <img src="img/logo-blanco.png" alt="Forn d'en Pere" width="900" height="765">
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="menu">
+        <a href="#obrador">El obrador</a>
+        <a href="#productos">Productos</a>
+        <a href="#cafeteria">Cafetería</a>
+        <a href="#encargos">Encargos</a>
+        <a href="#visitanos">Visítanos</a>
+        <a href="tel:+34644537589" class="btn btn--small btn--light">Llamar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <img class="hero__bg" src="img/hero.jpg" alt="" fetchpriority="high">
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light">Forn · Pastisseria · Cafetería</p>
+      <h1>Pan de verdad,<br><em>hecho cada día</em><br>desde 1990.</h1>
+      <p class="hero__lead">Panadería artesana de barrio en Gran Via. Pan, bollería, cocas y pasteles de elaboración propia, y un buen café para acompañarlos.</p>
+      <div class="hero__actions">
+        <a href="#productos" class="btn btn--wheat">Ver productos</a>
+        <a href="tel:+34644537589" class="btn btn--ghost">Encargar · 644 537 589</a>
+      </div>
+      <p class="status" id="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- ============ CINTA ============ -->
+  <div class="ribbon" aria-hidden="true">
+    <div class="ribbon__track">
+      <span>Pan artesano</span><span>✦</span><span>Elaboración propia</span><span>✦</span><span>Cocas</span><span>✦</span><span>Bollería</span><span>✦</span><span>Pastelería</span><span>✦</span><span>Cafetería</span><span>✦</span><span>Desde 1990</span><span>✦</span>
+      <span>Pan artesano</span><span>✦</span><span>Elaboración propia</span><span>✦</span><span>Cocas</span><span>✦</span><span>Bollería</span><span>✦</span><span>Pastelería</span><span>✦</span><span>Cafetería</span><span>✦</span><span>Desde 1990</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- ============ OBRADOR ============ -->
+  <section class="section obrador" id="obrador">
+    <div class="container split">
+      <figure class="split__media reveal">
+        <img src="img/pedro.jpg" alt="Pedro, el panadero de Forn d'en Pere, con su delantal de pan artesano" loading="lazy">
+        <figcaption class="note">Pedro, en el obrador</figcaption>
+      </figure>
+      <div class="split__text reveal">
+        <p class="eyebrow">El obrador</p>
+        <h2>Más de treinta años<br>con las manos en la masa.</h2>
+        <p>En Forn d'en Pere hacemos las cosas como siempre: con tiempo, buena materia prima y mucho oficio. Pedro amasa y hornea cada día, y en el mostrador te esperan Susana, Pepi e Inma con una sonrisa.</p>
+        <p>Somos un horno de barrio. Probamos recetas nuevas, sacamos novedades cuando el cuerpo lo pide y celebramos cada fiesta del calendario con su dulce.</p>
+        <ul class="facts">
+          <li><strong>1990</strong><span>abrimos el horno</span></li>
+          <li><strong>100%</strong><span>elaboración propia</span></li>
+          <li><strong>6 días</strong><span>a la semana</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTOS ============ -->
+  <section class="section productos" id="productos">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Recién salido del horno</p>
+        <h2>Nuestros productos</h2>
+        <p class="section__sub">Todo lo que ves aquí sale de nuestro obrador. La oferta cambia según el día y la temporada: pregúntanos por las novedades.</p>
+      </header>
+
+      <div class="tabs" role="tablist" aria-label="Categorías de productos">
+        <button role="tab" aria-selected="true" data-filter="todo">Todo</button>
+        <button role="tab" aria-selected="false" data-filter="pan">Panes</button>
+        <button role="tab" aria-selected="false" data-filter="bolleria">Bollería</button>
+        <button role="tab" aria-selected="false" data-filter="pasteleria">Pastelería</button>
+        <button role="tab" aria-selected="false" data-filter="salado">Salado</button>
+        <button role="tab" aria-selected="false" data-filter="temporada">Temporada</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- Panes -->
+        <article class="card" data-cat="pan">
+          <div class="card__img"><img src="img/pan-calabaza-nueces.jpg" alt="Pan de calabaza con nueces sobre un paño de cuadros" loading="lazy"></div>
+          <div class="card__body"><h3>Pan de calabaza con nueces</h3><p>Miga tierna, corteza dorada y el toque crujiente de la nuez. También lo hacemos tostado.</p></div>
+        </article>
+        <article class="card" data-cat="pan">
+          <div class="card__img"><img src="img/pan-olivas.jpg" alt="Pan de olivas" loading="lazy"></div>
+          <div class="card__body"><h3>Pan de olivas</h3><p>Masa rústica salpicada de olivas negras. Perfecto con un buen aceite.</p></div>
+        </article>
+        <article class="card" data-cat="pan">
+          <div class="card__img"><img src="img/pan-de-coca.jpg" alt="Cartel: hacemos auténtico pan de coca" loading="lazy"></div>
+          <div class="card__body"><h3>Pan de coca</h3><p>Auténtico pan de coca, fino y crujiente. El compañero ideal del pa amb tomàquet.</p></div>
+        </article>
+        <article class="card" data-cat="pan">
+          <div class="card__img"><img src="img/pan-tostado.jpg" alt="Bolsas de pan tostado de Forn d'en Pere" loading="lazy"></div>
+          <div class="card__body"><h3>Pan tostado</h3><p>Envasado en bolsas, crujiente y listo para la despensa.</p></div>
+        </article>
+
+        <!-- Bollería -->
+        <article class="card" data-cat="bolleria">
+          <div class="card__img"><img src="img/croissants.jpg" alt="Croissants de mantequilla" loading="lazy"></div>
+          <div class="card__body"><h3>Croissants</h3><p>Hojaldrados, dorados y con aroma a mantequilla. El clásico del desayuno.</p></div>
+        </article>
+        <article class="card" data-cat="bolleria">
+          <span class="tag">Novedad</span>
+          <div class="card__img"><img src="img/croissant-chocolate-blanco.jpg" alt="Croissants con chocolate blanco" loading="lazy"></div>
+          <div class="card__body"><h3>Croissant con chocolate blanco</h3><p>Nuestro croissant de siempre, bañado en chocolate blanco con hilos de chocolate negro.</p></div>
+        </article>
+        <article class="card" data-cat="bolleria">
+          <div class="card__img"><img src="img/xuxos.jpg" alt="Xuxos rellenos de crema" loading="lazy"></div>
+          <div class="card__body"><h3>Xuxos</h3><p>Rellenos de crema y rebozados en azúcar. Un capricho muy nuestro para desayunar.</p></div>
+        </article>
+        <article class="card" data-cat="bolleria">
+          <div class="card__img"><img src="img/palmeras-cereales.jpg" alt="Palmeras de cereales" loading="lazy"></div>
+          <div class="card__body"><h3>Palmeras de cereales</h3><p>Hojaldre caramelizado con cereales. Crujientes por fuera y por dentro.</p></div>
+        </article>
+        <article class="card" data-cat="bolleria">
+          <div class="card__img"><img src="img/magdalenas-espelta.jpg" alt="Magdalenas de espelta" loading="lazy"></div>
+          <div class="card__body"><h3>Magdalenas de espelta</h3><p>Esponjosas y caseras. Las hacemos los martes y los jueves.</p></div>
+        </article>
+        <article class="card" data-cat="bolleria">
+          <div class="card__img"><img src="img/hojaldre-elaboracion-propia.jpg" alt="Hojaldre con azúcar y canela" loading="lazy"></div>
+          <div class="card__body"><h3>Hojaldre de la casa</h3><p>Elaboración propia d'en Pere: hojaldre crujiente con azúcar y canela.</p></div>
+        </article>
+
+        <!-- Pastelería -->
+        <article class="card" data-cat="pasteleria">
+          <div class="card__img"><img src="img/tarta-manzana.jpg" alt="Tarta de manzana recién horneada" loading="lazy"></div>
+          <div class="card__body"><h3>Tarta de manzana</h3><p>Láminas de manzana sobre crema, recién salida del horno.</p></div>
+        </article>
+        <article class="card" data-cat="pasteleria">
+          <div class="card__img"><img src="img/tarta-limon.jpg" alt="Pastelito individual de tarta de limón" loading="lazy"></div>
+          <div class="card__body"><h3>Tarta de limón individual</h3><p>Pastelitos individuales de limón con nata. Para darse un capricho el fin de semana.</p></div>
+        </article>
+        <article class="card" data-cat="pasteleria">
+          <div class="card__img"><img src="img/pasteles-fruta.jpg" alt="Pasteles de fruta variada" loading="lazy"></div>
+          <div class="card__body"><h3>Pasteles de fruta</h3><p>Pasteles variados con fruta fresca. Te los preparamos por encargo.</p></div>
+        </article>
+        <article class="card" data-cat="pasteleria">
+          <span class="tag">Novedad</span>
+          <div class="card__img"><img src="img/gofre-fresas.jpg" alt="Gofres con nata y fresas" loading="lazy"></div>
+          <div class="card__body"><h3>Gofre con nata y fresas</h3><p>Base de gofre normal o de chocolate, con nata y fresas. ¿Te animas?</p></div>
+        </article>
+        <article class="card" data-cat="pasteleria">
+          <div class="card__img"><img src="img/bizcochos.jpg" alt="Bizcochos caseros" loading="lazy"></div>
+          <div class="card__body"><h3>Bizcochos caseros</h3><p>Bizcochos de muffin, tiernos y de toda la vida. Ideales para la merienda.</p></div>
+        </article>
+
+        <!-- Salado -->
+        <article class="card" data-cat="salado">
+          <div class="card__img"><img src="img/bocadillos.jpg" alt="Bocadillos con tomate y embutido" loading="lazy"></div>
+          <div class="card__body"><h3>Bocadillos</h3><p>Pan del día con tomate y embutido. Para desayunar aquí o para llevar.</p></div>
+        </article>
+        <article class="card" data-cat="salado">
+          <div class="card__img"><img src="img/croissants-salados.jpg" alt="Croissants salados" loading="lazy"></div>
+          <div class="card__body"><h3>Croissants salados</h3><p>De jamón dulce y queso, de sobrasada o de frankfurt.</p></div>
+        </article>
+        <article class="card" data-cat="salado">
+          <div class="card__img"><img src="img/pizzas.jpg" alt="Pizza artesana de horno" loading="lazy"></div>
+          <div class="card__body"><h3>Pizzas</h3><p>De jamón dulce, champiñones, cebolla, quesos… Recién horneadas.</p></div>
+        </article>
+
+        <!-- Temporada -->
+        <article class="card" data-cat="temporada">
+          <span class="tag tag--red">Sant Joan</span>
+          <div class="card__img"><img src="img/coques-sant-joan.jpg" alt="Pedro y Susana con la degustación de cocas" loading="lazy"></div>
+          <div class="card__body"><h3>Cocas de Sant Joan</h3><p>De crema, cabello de ángel, fruta, piñones o chocolate. ¡Reserva la tuya!</p></div>
+        </article>
+        <article class="card" data-cat="temporada">
+          <span class="tag tag--red">Todos los Santos</span>
+          <div class="card__img"><img src="img/panellets.jpg" alt="Panellets de piñones" loading="lazy"></div>
+          <div class="card__body"><h3>Panellets</h3><p>Panellets de piñones hechos a mano, como manda la tradición de la Castanyada.</p></div>
+        </article>
+        <article class="card" data-cat="temporada">
+          <div class="card__img"><img src="img/coca-pinones.jpg" alt="Coca de piñones" loading="lazy"></div>
+          <div class="card__body"><h3>Coca de piñones</h3><p>Fina, dulce y crujiente. Para las fiestas o para cualquier día.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEMPORADA (DESTACADO) ============ -->
+  <section class="feature" aria-labelledby="feature-title">
+    <img class="feature__bg" src="img/panellets-bandeja.jpg" alt="" loading="lazy">
+    <div class="container feature__inner reveal">
+      <p class="eyebrow eyebrow--light">Ahora en temporada</p>
+      <h2 id="feature-title">Panellets de la Castanyada</h2>
+      <p>Bandejas de panellets de piñones recién horneados. Ven a probarlos o encarga los tuyos para Todos los Santos.</p>
+      <a href="#encargos" class="btn btn--wheat">Hacer un encargo</a>
+    </div>
+  </section>
+
+  <!-- ============ CAFETERÍA ============ -->
+  <section class="section cafeteria" id="cafeteria">
+    <div class="container split split--reverse">
+      <div class="split__media split__media--stack reveal">
+        <img src="img/cafe.jpg" alt="Café con leche con espuma y cacao" loading="lazy">
+        <img src="img/interior.jpg" alt="Interior de la cafetería de Forn d'en Pere" loading="lazy">
+      </div>
+      <div class="split__text reveal">
+        <p class="eyebrow">La cafetería</p>
+        <h2>Un cafecito<br><em>riquito, riquito.</em></h2>
+        <p>Siéntate un rato. Desayunos, almuerzos y meriendas con nuestro pan y nuestra bollería, en un local tranquilo y climatizado.</p>
+        <ul class="checks">
+          <li>Desayunos con bocadillo o bollería del día</li>
+          <li>Cafés, cortados y capuchinos</li>
+          <li>Meriendas dulces y saladas</li>
+          <li>Para tomar aquí o para llevar</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ENCARGOS ============ -->
+  <section class="encargos" id="encargos">
+    <div class="container encargos__inner reveal">
+      <div>
+        <p class="eyebrow eyebrow--light">Encargos</p>
+        <h2>¿Una coca para Sant Joan?<br>¿Una tarta para el domingo?</h2>
+        <p>Reserva tus cocas, pasteles y bandejas en el horno o por teléfono. Te lo tenemos listo para cuando vengas a recogerlo.</p>
+      </div>
+      <a class="phone" href="tel:+34644537589">
+        <span class="phone__label">Llámanos</span>
+        <span class="phone__number">644 537 589</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ GALERÍA ============ -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">El día a día</p>
+        <h2>Así se vive en el horno</h2>
+        <p class="section__sub">Degustaciones, fiestas y muchas risas. Síguenos en Instagram para no perderte ninguna novedad.</p>
+      </header>
+      <div class="masonry">
+        <img src="img/halloween-equipo.jpg" alt="Pedro y Susana disfrazados para Halloween" loading="lazy">
+        <img src="img/degustacion.jpg" alt="Degustación de cocas en el mostrador" loading="lazy">
+        <img src="img/mostrador.jpg" alt="Mostrador de Forn d'en Pere" loading="lazy">
+        <img src="img/pedro-fresco.jpg" alt="Pedro buscando el fresco en verano, entre hielo" loading="lazy">
+        <img src="img/clientas.jpg" alt="Clientas tomando algo en la cafetería" loading="lazy">
+        <img src="img/vitrina.jpg" alt="Vitrina con bollería del día" loading="lazy">
+        <img src="img/tertulia.jpg" alt="Clientes charlando con Pedro" loading="lazy">
+        <img src="img/cafes.jpg" alt="Dos cafés en la barra" loading="lazy">
+      </div>
+      <div class="center">
+        <a class="btn btn--dark" href="https://www.instagram.com/forndenpere/" target="_blank" rel="noopener">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          @forndenpere
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISÍTANOS ============ -->
+  <section class="section visitanos" id="visitanos">
+    <div class="container visit">
+      <div class="visit__info reveal">
+        <p class="eyebrow">Visítanos</p>
+        <h2>Te esperamos en Gran Via</h2>
+        <address>
+          Gran Via de les Corts Catalanes, 1032<br>
+          Barcelona
+        </address>
+        <table class="hours" aria-label="Horario">
+          <tbody>
+            <tr data-days="1,2,3,4,5"><th>Lunes a viernes</th><td>7:45 – 20:00</td></tr>
+            <tr data-days="6"><th>Sábado</th><td>8:15 – 14:30</td></tr>
+            <tr data-days="0"><th>Domingo</th><td>Cerrado</td></tr>
+          </tbody>
+        </table>
+        <div class="visit__actions">
+          <a class="btn btn--dark" href="https://www.google.com/maps/dir/?api=1&destination=Gran+Via+de+les+Corts+Catalanes+1032+Barcelona" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn--outline" href="tel:+34644537589">644 537 589</a>
+        </div>
+      </div>
+      <div class="visit__media reveal">
+        <img src="img/fachada.jpg" alt="Fachada de Forn d'en Pere con el toldo rojo" loading="lazy">
+        <iframe title="Mapa de Forn d'en Pere" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Gran+Via+de+les+Corts+Catalanes+1032,+Barcelona&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PIE ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="img/logo-blanco.png" alt="Forn d'en Pere" class="footer__logo" loading="lazy">
+      <div>
+        <p><strong>Forn d'en Pere</strong> · Forn de pa, pastisseria i cafetería</p>
+        <p>Gran Via de les Corts Catalanes, 1032 · Barcelona · <a href="tel:+34644537589">644 537 589</a></p>
+        <p><a href="https://www.instagram.com/forndenpere/" target="_blank" rel="noopener">Instagram @forndenpere</a></p>
+      </div>
+      <p class="footer__copy">© <span id="year">2026</span> Forn d'en Pere. Desde 1990.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
